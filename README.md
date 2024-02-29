@@ -1,7 +1,17 @@
 EECE5639-Project
 ==============================
 
-A short description of the project.
+This project leverages feature extration and instance segmentation to detect and classify instances of diabetic retinopathy.  
+The project is based on the Kaggle competition "Diabetic Retinopathy Detection" (https://www.kaggle.com/c/diabetic-retinopathy-detection).  
+
+==============================
+
+## Note - I haven't made the requirements.txt file yet.
+
+Create a conda environment with `conda create --name <env> --file requirements.txt` and activate it with `conda activate <env>` or `source activate <env>`.
+
+Data is excluded from source control. To download the data, run `kaggle competitions download -c diabetic-retinopathy-detection`.  
+The data should be extracted to `data/raw`. If the `kaggle` package is not properly installed, manually run `conda install conda-forge::kaggle`.
 
 Project Organization
 ------------
