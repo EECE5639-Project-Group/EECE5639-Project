@@ -3,8 +3,7 @@ EECE5639-Project
 
 This project leverages feature extration and instance segmentation to detect and classify instances of diabetic retinopathy.  
 The project is based on the Kaggle competition "Diabetic Retinopathy Detection" (https://www.kaggle.com/c/diabetic-retinopathy-detection).  
-
-==============================
+Please develop on the dev branch.
 
 ## Note - I haven't made the requirements.txt file yet.
 
